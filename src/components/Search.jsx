@@ -5,15 +5,21 @@ import { FaSearch } from "react-icons/fa";
 function Search() {
   return (
     <FormStyle>
-      <input type="text" />
+      <div>
+        <input type="text" />
+      </div>
     </FormStyle>
   );
 }
 
 const FormStyle = styled.form`
-  margin: 0rem 20rem;
+  margin: 0rem 0rem;
   position: relative;
   width: 100%;
+  div {
+    position: relative;
+    width: 100%;
+  }
   input {
     border: none;
     background: linear-gradient(35deg, #494949, #313131);
