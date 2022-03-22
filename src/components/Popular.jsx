@@ -37,7 +37,7 @@ function Popular() {
             perPage: 4,
             pagination: false,
             drag: "free",
-            gap: "5rem",
+            gap: "2.5rem",
             arrows: false,
           }}
         >
@@ -64,7 +64,7 @@ const Wrapper = styled.div`
 
 const Card = styled.div`
   min-height: 15rem;
-  min-width: 11rem;
+  /* min-width: 11rem; */
   border-radius: 2rem;
   overflow: hidden;
   position: relative;

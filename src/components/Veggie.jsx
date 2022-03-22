@@ -37,7 +37,7 @@ function Veggie() {
             perPage: 3,
             pagination: false,
             drag: "free",
-            gap: "5rem",
+            gap: "3rem",
             arrows: false,
           }}
         >
