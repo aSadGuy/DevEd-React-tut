@@ -38,6 +38,10 @@ function Recipe() {
         >
           Ingredients
         </Button>
+        <div>
+          <h3 dangerouslySetInnerHTML={{ __html: details.summary }}></h3>
+          <h3 dangerouslySetInnerHTML={{ __html: details.instructions }}></h3>
+        </div>
       </Info>
     </DetailWrapper>
   );
@@ -70,6 +74,7 @@ const DetailWrapper = styled.div`
 const Button = styled.button`
   padding: 1rem 1rem;
   color: white;
+  width: 8rem;
   background: rgb(24, 24, 24);
   border: 2px solid white;
   margin-right: 1rem;
@@ -80,7 +85,6 @@ const Button = styled.button`
 
 const Info = styled.div`
   margin-left: 9rem;
-  margin-right: 10rem;
 `;
 
 export default Recipe;
